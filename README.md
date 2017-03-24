@@ -3,14 +3,23 @@
 ## Operations
 When the program start, the user enters one P Line, one Q Line, and one E line. The program ends when it reads Quit
 operation.
+
 P, Q:                   Prime Numbers
-IsPPrime:               Print Yes if P is prime. And print No if P is not prime.
-IsQPrime:               Print Yes if Q is prime. And print No if Q is not prime.
+
+IsPPrime:               Print Yes if P is prime. And print No if P is not prime
+
+IsQPrime:               Print Yes if Q is prime. And print No if Q is not prime
+
 PrintN:                 Print N value in decimal in one line. (N = P * Q)
+
 PrintPhi:               Print Phi(N) in decimal in one line. (Phi = (P - 1) * (Q - 1))
+
 PrintD:                 Print D value (Private Key) in decimal in one line. (D = E^-1 mod Phi)
+
 EncryptPublic=Message:  Print the Encrypted message using RSA public key (N,E) Message and Output are in decimal
+
 EncryptPrivate=Message: Print the Encrypted message using RSA private key (N,D) Message and Output are in decimal
+
 Quit:                   End program
 
 ## Input Example:
