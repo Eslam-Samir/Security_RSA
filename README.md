@@ -1,6 +1,19 @@
 # Security_RSA
 
-Input Example:
+## Operations
+When the program start, the user enters one P Line, one Q Line, and one E line. The program ends when it reads Quit
+operation.
+P, Q:                   Prime Numbers
+IsPPrime:               Print Yes if P is prime. And print No if P is not prime.
+IsQPrime:               Print Yes if Q is prime. And print No if Q is not prime.
+PrintN:                 Print N value in decimal in one line. (N = P * Q)
+PrintPhi:               Print Phi(N) in decimal in one line. (Phi = (P - 1) * (Q - 1))
+PrintD:                 Print D value (Private Key) in decimal in one line. (D = E^-1 mod Phi)
+EncryptPublic=Message:  Print the Encrypted message using RSA public key (N,E) Message and Output are in decimal
+EncryptPrivate=Message: Print the Encrypted message using RSA private key (N,D) Message and Output are in decimal
+Quit:                   End program
+
+## Input Example:
 
 P=12369571528747655798110188786567180759626910465726920556567298659370399748072366507234899432827475865189642714067836207300153035059472237275816384410077871
 Q=2065420353441994803054315079370635087865508423962173447811880044936318158815802774220405304957787464676771309034463560633713497474362222775683960029689473
@@ -14,7 +27,7 @@ EncryptPublic=123456789
 EncryptPrivate=24796813103014297284187408435662223949108141635066112577846900965807880770000544218043062224516376700417564910765439139068237931854041515993640625179978807692292197974059481618756695651016598499502702597078655308494766127968517543798022425335883660290351942579976307461579024582830298935137801705777857752189
 Quit
 
-Output:
+## Output:
 
 Yes
 Yes
